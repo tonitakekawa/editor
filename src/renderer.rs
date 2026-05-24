@@ -29,6 +29,7 @@ struct QuadVtx {
     col: [f32; 4],
 }
 
+#[allow(dead_code)]
 pub struct Renderer {
     surface: wgpu::Surface<'static>,
     device: wgpu::Device,
